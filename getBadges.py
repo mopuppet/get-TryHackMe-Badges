@@ -47,6 +47,6 @@ with open("badges.html", "w") as outputFile:
             outputHTML += '</div>'
             outputHTML += "\n" 
     
-    outputHTML += '<div>'
+    outputHTML += '</div>'
     outputHTML += "</html>\n"
     outputFile.write(outputHTML)
